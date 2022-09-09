@@ -133,7 +133,6 @@ function recursiveContents(o) {
     return new Page(o.icon, o.title, output)
 }
 
-screen.orientation.lock("portrait")
 if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("worker.js").then(registration => {
         console.log("worker registered!");
