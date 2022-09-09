@@ -1,0 +1,24 @@
+{
+    "name":"דברי הרס\"ר",
+    "short_name":"דברי הרס\"ר",
+    "start_url":".",
+    "background_color":"#F3F7FA",
+    "theme_color":"#F3F7FA",
+    "display":"standalone",
+    "orientation":"portrait",
+    "icons": [
+        {
+            "src":"logo.png",
+            "sizes":"512x512",
+            "type":"image/png",
+            "purpose":"any"
+        },
+        {
+            "src":"maskable_icon.png",
+            "sizes":"1024x1024",
+            "type":"image/png",
+            "purpose":"any maskable"
+        }
+    ]
+    
+}

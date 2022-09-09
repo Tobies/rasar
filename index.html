@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html translate="no">
+   <head>
+      <meta charset="utf-8"/>
+      <title>דברי הרס"ר</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+      <meta name="theme-color" content="#121212">
+      <link rel="apple-touch-icon" href="/ios.png">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="mobile-web-app-capable" content="yes">
+      <link rel="manifest" href="manifest.json">
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+        body {
+            margin:0px;
+            width: 100vw;
+            height: 100vh;
+        }
+        .button {
+            background-color: #FEFEFE;
+            width: 50vw;
+            height: 50vw;
+            border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .icon {
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #F3F3F3;
+            background-size: 15vw;
+            border-radius: 100vw;
+            width: 20vw;
+            height: 20vw;
+            align-self: center;
+            justify-self: center;
+            top: 50%;
+        }
+        .text {
+            font-family: 'Rubik', sans-serif;
+            display: inline-block;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            word-break: break-all;
+            font-size: 15pt;
+            max-width: 40vw;
+            max-height: 20vh;
+            margin: 10px;
+            text-align: center;
+        }
+        .grid {
+            display: grid;
+            background-color: transparent;
+            margin-top: 22vh;
+            grid-template-columns: 100vw;
+            justify-items: center;
+            row-gap: 25px;
+        }
+        .backButton {
+            z-index: 999;
+            position:fixed;
+            top: 50px;
+            left: 50px;
+            width: 7vw;
+            height: 7vw;
+            background-color: transparent;
+            text-align: center;
+            background-image: url(https://cdn-icons-png.flaticon.com/512/2732/2732652.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .banner {
+            background-color: #F3F7FA;
+            height: 16vh;
+            width: 100vw;
+            position: fixed;
+            top:0px;
+
+        }
+        .banner svg {
+            margin-top:14vh;
+        }
+        .title {
+            text-align: right;
+            font-family: 'Rubik', sans-serif;
+            font-size: 25pt;
+            position: fixed;
+            right: 10vw;
+            top: 10vw;
+        }
+        .description {
+            font-family: 'Rubik', sans-serif;
+            font-size: 15pt;
+            position: fixed;
+            right: 10vw;
+            max-width: 80vw;
+            font-weight: 300;
+            margin-top: 10px;
+        }
+        .background {
+            z-index: -999;
+            width: 100vw;
+            height: 100vh;
+            background-image: linear-gradient(-61deg, #B4BDC3, #F1F5F6);
+            background-repeat: no-repeat;
+            background-position:top;
+            background-size: cover;
+            position: fixed;
+            top: 0px;
+        }
+        .logo {
+            z-index: -950;
+            width: 100vw;
+            height: 100vh;
+            background-image: url(https://i.ibb.co/zPxdh3m/marhaslogo.png);
+            opacity: 25%;
+            background-repeat: no-repeat;
+            background-position:right;
+            background-size: cover;
+            position: fixed;
+            top: 0px;
+        }
+        .credits {
+            z-index: 1000;
+            width: 100vw;
+            height: 4vh;
+            background-color: #F3F7FA;
+            position: relative;
+            bottom: 0px;
+            margin-top: 50px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 4vh;
+            font-family: 'Rubik', sans-serif;
+            font-size: 15pt;
+            font-weight: 300;
+
+        }
+
+    </style>
+    <body>
+        
+        <script src="structure.js"></script>
+        <script src="siteBuilder.js"></script>
+
+    </body>
+</html>
